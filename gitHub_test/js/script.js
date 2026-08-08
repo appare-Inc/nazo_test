@@ -10,7 +10,7 @@ inputField.addEventListener('input', function() {
     if (inputValue.length > 0) {
         // 文字が入力されている場合
         actionButton.disabled = false; // ボタンを有効化
-        actionButton.style.backgroundColor = '#4CAF50';
+        actionButton.style.backgroundColor = '#c0ffee';
         actionButton.style.color = 'white';
         messageArea.textContent = `「${inputValue}」が入力されています。`;
     } else {
